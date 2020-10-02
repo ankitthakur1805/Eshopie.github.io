@@ -1,0 +1,270 @@
+<!-- <!DOCTYPE html>
+<html>
+
+<head>
+    <title> MY CREATION</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+        /* Clearfix (clear floats) */
+        
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="main">
+
+            <ul>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+        </div>
+
+        <div class="title">
+            <h1>We've Got Your </h1>
+            <h2>Essentials Sorted ! </h2>
+
+        </div>
+
+
+
+        <div class="button">
+            <a href="#" class="btn">MEN</a>
+            <a href="#" class="btn">WOMEN</a>
+            <a href="#" class="btn">ELECTRONIC'S</a>
+        </div>
+    </header>
+    <div>
+
+        <div class="row">
+            <div class="container">
+                <div class="column">
+                    <img src="phone1.jpg" height="350px" alt="Snow" style="width:100%"> MOBILE PHONES
+                    <button class="btn2">Shop</button>
+                </div>
+
+            </div>
+            <div class="container">
+                <div class="column">
+                    <img src="jeans1.jpg" height="350px" alt="Snow" style="width:100%">JEANS
+                    <button class="btn2">Shop</button>
+                </div>
+            </div>
+            <div class="container">
+                <div class="column">
+                    <img src="tshirt1.jpg" height="350px" alt="Snow" style="width:100%">T-SHIRTS
+                    <button class="btn2">Shop</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="row">
+            <div class="container">
+                <div class="column">
+                    <img src="camera1.jpg" height="350px" alt="Snow" style="width:100%"> CAMERA
+                    <button class="btn2">Shop</button>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="column">
+                    <img src="shoes1.jpg" height="350px" alt="Snow" style="width:100%">SHOES
+                    <button class="btn2">Shop</button>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="column">
+                    <img src="earphone1.jpg" height="350px" alt="Snow" style="width:100%">EAR PHONES
+                    <button class="btn2">Shop</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="row">
+            <div class="container">
+                <div class="column">
+                    <img src="mask.jpg" height="350px" alt="Snow" style="width:100%"> CAMERA
+                    <button class="btn2">Shop</button>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="column">
+                    <img src="laptop.jpg" height="350px" alt="Snow" style="width:100%">SHOES
+                    <button class="btn2">Shop</button>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="column">
+                    <img src="cycle.jpg" height="350px" alt="Snow" style="width:100%">EAR PHONES
+                    <button class="btn2">Shop</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="row">
+            <div class="container">
+                <div class="column">
+                    <img src="sunglasses.jpg" height="350px" alt="Snow" style="width:100%"> CAMERA
+                    <button class="btn2">Shop</button>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="column">
+                    <img src="glasses.jpg" height="350px" alt="Snow" style="width:100%">SHOES
+                    <button class="btn2">Shop</button>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="column">
+                    <img src="watch.jpg" height="350px" alt="Snow" style="width:100%">EAR PHONES
+                    <button class="btn2">Shop</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>
+
+----------------------------------
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(photo1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 50px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 6px 22px;
+    border: 1px solid transition;
+    transition: 0.6s ease;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+ul li.active a {
+    background-color: white;
+    color: black;
+}
+
+.main {
+    margin-right: 35px;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.title h2 {
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.name {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.button {
+    position: absolute;
+    top: 74%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: rgb(17, 4, 4);
+    text-decoration: none;
+    transition: 0.8s ease;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.btn:hover {
+    background-color: #f0f7f0;
+    color: black;
+}
+
+.btn2 {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: rgb(17, 4, 4);
+    text-decoration: none;
+    transition: 0.8s ease;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.btn2:hover {
+    background-color: #12abb6;
+    color: black;
+}
+
+.text1 {
+    color: rgb(12, 190, 81);
+    font-size: 25px;
+    font-weight: bold;
+} -->
